@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Happy Birthday Cha!!</title>
+  
+  <style>
+  
+    body {
+      background:linear-gradient(to right, pink, lightblue);
+      height: 100%;
+    }
+    img {
+      width: 40%;
+      border-radius: 10px;
+      border: 1.5px solid black;
+    }
+    .partA {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+    h1 {
+      text-align: center;
+      font-size: 25px;
+      font-family: Courier, monospace;
+      color: whitesmoke;
+    }
+    p {
+      margin-top: 20px;
+      text-align: center;
+      font-family: Courier, monospace;
+      font-size: 20px;
+      color: dimgray;
+    }
+    input {
+      width: 30%;
+      padding: 12px;
+      background: lightblue;
+      border: 1px solid white;
+      border-radius: 5px;
+      color: dimgray;
+      font-size: 20px;
+      font-family: Courier, monospace;
+    }
+    .button {
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+  </style>
+  
+</head>
+
+<body>
+  <div class="partA">
+    <img src="partA.gif">
+  </div>
+  
+  <div class="contentA">
+    <h1>Happy Birthday Cha!!</h1>
+  </div>
+  
+  <div class="contentB">
+    <p>Happy Birthday Cha!! I Hope You Read This Message Clearly And Also Enjoy Your Day And Be Happy Always, Happy Birthday! Cha The Most Pretty And Cute Girl Na Nakilala Ko! Naks Sweet 16<br><br>Click The Continue Button And Enjoy Reading! Happy Birthday!</p>
+  </div>
+  
+  <div class="button" >
+    <input type="button" id="oneclick" value="Continue">
+  </div>
+  
+  <script>
+    
+    const button = document.getElementById('oneclick');
+    
+    button.addEventListener('click', function() {
+      window.location.href = 'frame1.html';
+    })
+    
+  </script>
+</body>
+</html>
